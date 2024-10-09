@@ -1,14 +1,16 @@
-//Introducir un número y determinar si es “par” o “impar”
-//Pseudocódigo
-/*graph TD;
+/*Introducir un número y determinar si es “par” o “impar”
+Pseudocódigo
+
+graph TD;
     A[Inicio] --> B[Leer número];
     B --> C{Número mod 2 == 0?};
     C -- Si --> D[Imprimir "Es par"];
     C -- No --> E[Imprimir "Es impar"];
     D --> F[Fin];
     E --> F;
-*/
-// C# (Implementación en ensamblador ARM64):
+*/ 
+
+# (Implementación en ensamblador ARM64):
 // Console.Write("Introduce un número: ");
 // int numero = Convert.ToInt32(Console.ReadLine());
 // if (numero % 2 == 0) {
