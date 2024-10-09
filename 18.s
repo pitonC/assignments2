@@ -1,4 +1,4 @@
-//Pseudocódigo
+/*//Pseudocódigo
 /*graph TD;
     A[Inicio] --> B[Inicializar arreglo de 35 enteros];
     B --> C[Inicializar suma = 0];
@@ -9,7 +9,6 @@
     G -- Si --> D;
     G -- No --> H[Imprimir suma];
     H --> I[Fin];
-*/
 //Código en Ensamblador ARM64
 // C# (Implementación en ensamblador ARM64):
 // int[] arr = new int[35];
@@ -18,7 +17,7 @@
 //     suma += arr[i];
 // }
 // Console.WriteLine($"Suma: {suma}");
-
+*/
 .section .data
 msg_suma_35: .ascii "Suma de 35 enteros es: \n"
 array_35: .word 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, \
@@ -52,6 +51,8 @@ loop_sum_35:
     // Salida del programa
     mov w8, 93
     svc 0
+    /*
 //Sumar 35 enteros secuenciales (1 a 35). El resultado esperado es 630. La salida esperada es:
 
 //Suma de 35 enteros es: 630
+*/
