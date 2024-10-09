@@ -1,4 +1,4 @@
-//Pseudocódigo
+/*//Pseudocódigo
 /*graph TD;
     A[Inicio] --> B[Inicializar suma = 0];
     B --> C[Recorrer i desde 1 hasta 1000];
@@ -8,14 +8,14 @@
     F -- Si --> C;
     F -- No --> G[Imprimir suma];
     G --> H[Fin];
-*/
+
 // C# (Implementación en ensamblador ARM64):
 // int suma = 0;
 // for (int i = 1; i <= 1000; i++) {
 //     suma += i;
 // }
 // Console.WriteLine($"Suma: {suma}");
-
+*/
 .section .data
 msg_suma_1000: .ascii "Suma de 1 al 1000 es: \n"
 
@@ -36,7 +36,7 @@ loop_sum_1_to_1000:
     // ¿i <= 1000?
     cmp x2, 1001
     blt loop_sum_1_to_1000
-
+/*
     // Imprimir el resultado de la suma
     ldr x0, =msg_suma_1000
     bl print_message
@@ -44,6 +44,7 @@ loop_sum_1_to_1000:
     // Salida del programa
     mov w8, 93
     svc 0
+    */
 
 //Se espera que la suma de los números del 1 al 1,000 sea 500,500. La salida esperada es:
 
