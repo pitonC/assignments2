@@ -1,4 +1,4 @@
-//Pseudocódigo
+/*//Pseudocódigo
 /*graph TD;
     A[Inicio] --> B[Calcular 3^75];
     B --> C[Calcular 2^100];
@@ -8,7 +8,7 @@
     E -- No --> G[Imprimir "2^100 es mayor"];
     F --> H[Fin];
     G --> H;
-*/
+
 // C# (Implementación en ensamblador ARM64):
 // double val1 = Math.Pow(3, 75);
 // double val2 = Math.Pow(2, 100);
@@ -17,7 +17,7 @@
 // } else {
 //     Console.WriteLine("2^100 es mayor");
 // }
-
+*/
 .section .data
 msg_3_greater: .ascii "3^75 es mayor\n"
 msg_2_greater: .ascii "2^100 es mayor\n"
@@ -53,8 +53,9 @@ end:
 
 print_message:
     mov x
-
+/*
 //Pruebas con valores aproximados de las potencias:
 
 //3^75=1.87*10^35
 //2^100=1.267*10^30
+*/
