@@ -1,7 +1,7 @@
-//Encontrar el entero positivo mayor en una lista de quince enteros
+/*//Encontrar el entero positivo mayor en una lista de quince enteros
 
 //Pseudocódigo
-/*
+
 graph TD;
     A[Inicio] --> B[Inicializar lista de 15 enteros];
     B --> C[Inicializar maximo = 0];
@@ -14,7 +14,7 @@ graph TD;
     H -- Si --> I[Imprimir maximo];
     H -- No --> D;
     I --> J[Fin];
-*/
+
 //Código en Ensamblador ARM64
 // C# (Implementación en ensamblador ARM64):
 // int[] lista = {15 enteros};
@@ -25,7 +25,7 @@ graph TD;
 //     }
 // }
 // Console.WriteLine(maximo);
-
+*/
 .section .data
 lista: .word 10, 23, 42, 5, 78, 90, 33, 27, 88, 1, 9, 45, 64, 39, 50
 
@@ -59,7 +59,9 @@ next:
     // Salida del programa
     mov w8, 93            // syscall para salir
     svc 0
+    /*
 //Probar con diferentes listas de enteros y documentar los resultados:
 
 //Lista: [10, 23, 42, 5, 78, 90, 33, 27, 88, 1, 9, 45, 64, 39, 50], resultado esperado: 90
 //Lista: [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29], resultado esperado: 29
+*/
