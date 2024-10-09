@@ -1,4 +1,5 @@
-//Pseudocódigo
+
+/*//Pseudocódigo
 /* graph TD;
     A[Inicio] --> B[Inicializar lista de 15 enteros];
     B --> C[Inicializar maximo = 0, segundoMaximo = 0];
@@ -14,7 +15,7 @@
     J -- Si --> K[Imprimir segundoMaximo];
     J -- No --> D;
     K --> L[Fin];
-*/
+
 //Código en Ensamblador ARM64
 // C# (Implementación en ensamblador ARM64):
 // int[] lista = {15 enteros};
@@ -29,7 +30,7 @@
 //     }
 // }
 // Console.WriteLine(segundoMaximo);
-
+*/
 .section .data
 lista: .word 10, 23, 42, 5, 78, 90, 33, 27, 88, 1, 9, 45, 64, 39, 50
 
@@ -72,8 +73,9 @@ next:
     // Salida del programa
     mov w8, 93               // syscall para salir
     svc 0
-
+/*
 //Probar con diferentes listas y verificar el segundo mayor:
 
 //Lista: [10, 23, 42, 5, 78, 90, 33, 27, 88, 1, 9, 45, 64, 39, 50], resultado esperado: 88
 //Lista: [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29], resultado esperado: 27
+*/
