@@ -1,4 +1,4 @@
-//Pseudocódigo
+/*//Pseudocódigo
 /*graph TD;
     A[Inicio] --> B[Inicializar suma = 0];
     B --> C[Recorrer i desde 1 hasta 20];
@@ -8,9 +8,9 @@
     F -- Si --> C;
     F -- No --> G[Imprimir suma];
     G --> H[Fin];
-*/
+
 //Código en Ensamblador ARM64
-/*// C# (Implementación en ensamblador ARM64):
+/ C# (Implementación en ensamblador ARM64):
 // int suma = 0;
 // for (int i = 1; i <= 20; i++) {
 //     suma += i;
@@ -19,7 +19,7 @@
 
 .section .data
 msg_suma: .ascii "Suma de 1 al 20 es: \n"
-
+*/
 .section .text
 .global _start
 _start:
@@ -45,7 +45,9 @@ loop_sum_1_to_20:
     // Salida del programa
     mov w8, 93
     svc 0
-*/
+
+/*
 //Se espera que el resultado de la suma sea 210. La salida esperada es:
 
 //Suma de 1 al 20 es: 210
+*/
