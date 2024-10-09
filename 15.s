@@ -1,5 +1,5 @@
-//Pseudocódigo
-/*
+/*//Pseudocódigo
+
 graph TD;
     A[Inicio] --> B[Inicializar i = 1];
     B --> C[Recorrer j desde 1 hasta 12];
@@ -11,7 +11,7 @@ graph TD;
     G --> H{i <= 12?};
     H -- Si --> B;
     H -- No --> I[Fin];
-*/
+
 //Código en Ensamblador ARM64
 // C# (Implementación en ensamblador ARM64):
 // for (int i = 1; i <= 12; i++) {
@@ -19,7 +19,7 @@ graph TD;
 //         Console.WriteLine($"{i} + {j} = {i + j}");
 //     }
 // }
-
+*/
 .section .data
 newline: .ascii "\n"
 space: .ascii " "
