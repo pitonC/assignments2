@@ -1,4 +1,4 @@
-//Pseudocódigo
+/*//Pseudocódigo
 /*graph TD;
     A[Inicio] --> B[Inicializar i = 1];
     B --> C[Recorrer j desde 1 hasta 12];
@@ -12,14 +12,14 @@
     I -- Si --> B;
     I -- No --> J[Fin];
 
-*/
+
 // C# (Implementación en ensamblador ARM64):
 // for (int i = 1; i <= 12; i++) {
 //     for (int j = 1; j <= 12; j++) {
 //         Console.WriteLine($"{i} x {j} = {i * j}");
 //     }
 // }
-
+*/
 .section .data
 tabla_mult: .ascii "Tabla de multiplicar hasta 12 x 12\n"
 
@@ -61,10 +61,10 @@ loop_j_mult:
 print_mult:
     // Aquí imprimimos los resultados de la multiplicación (omitiendo los detalles de la impresión)
     ret
-
+/*
 //Probar con las combinaciones de multiplicaciones desde 
 //1×1 hasta 12×12. Se espera que los resultados impresos incluyan:
-
+*/
 //1 x 1 = 1
 //2 x 2 = 4
 //...
