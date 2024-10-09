@@ -1,5 +1,5 @@
-//Determinar si un entero dado es un múltiplo de 6
-//Pseudocódigo
+/*Determinar si un entero dado es un múltiplo de 6
+Pseudocódigo
 
 /*graph TD;
     A[Inicio] --> B[Leer número];
@@ -8,10 +8,9 @@
     C -- No --> E[Imprimir "No es múltiplo de 6"];
     D --> F[Fin];
     E --> F;
-*/
-//Código en Ensamblador ARM64
+Código en Ensamblador ARM64 
 
-/*// C# (Implementación en ensamblador ARM64):
+/* C# (Implementación en ensamblador ARM64):
 // Console.Write("Introduce un número: ");
 // int numero = Convert.ToInt32(Console.ReadLine());
 // if (numero % 6 == 0) {
@@ -19,7 +18,7 @@
 // } else {
 //     Console.WriteLine($"{numero} no es múltiplo de 6.");
 // }
-
+*/
 .section .data
 msg_input: .ascii "Introduce un número: "
 msg_multiplo: .ascii " es múltiplo de 6.\n"
@@ -59,7 +58,8 @@ fin:
     // Salida del programa
     mov w8, 93
     svc 0
-*/
+/*
 //Pruebas y Depuración 
 //Entrada: 12 Salida: 12 es múltiplo de 6.
 //Entrada: 13 Salida: 13 no es múltiplo de 6.
+*/
